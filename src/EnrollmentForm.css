@@ -1,0 +1,79 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    display: flex;
+    background: url('./jinhsi.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    align-items: center;
+    height: 180vh;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    background-color: rgba(60, 62, 65, 0.9); 
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px); 
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #c9d1d9;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    background-color: rgba(13, 17, 23, 0.8); /* Slightly transparent background */
+    color: #c9d1d9;
+    box-sizing: border-box;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus {
+    border-color: #58a6ff;
+    outline: none;
+  }
+  
+  button {
+    background-color: #238636;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #2ea043;
+  }
+  
